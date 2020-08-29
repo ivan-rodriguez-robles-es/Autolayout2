@@ -15,23 +15,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sv5-2T-5uJ" userLabel="topView">
-                                <rect key="frame" x="78" y="197" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yh5-bx-zYB" userLabel="centerView">
-                                <rect key="frame" x="-1.0328796990575029" y="333.70953746014402" width="375" height="0.99999999999997158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yh5-bx-zYB" userLabel="centerView">
+                                <rect key="frame" x="0.0" y="333" width="375" height="1"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UAn-U1-V9L" userLabel="topView">
-                                <rect key="frame" x="78" y="342" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="MOI-bM-hTI"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yh5-bx-zYB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GrO-zt-wpm"/>
+                            <constraint firstAttribute="trailing" secondItem="yh5-bx-zYB" secondAttribute="trailing" id="GyM-dC-2LW"/>
+                            <constraint firstItem="yh5-bx-zYB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jqt-QN-fGp"/>
+                            <constraint firstItem="yh5-bx-zYB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="om3-WJ-JBU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
